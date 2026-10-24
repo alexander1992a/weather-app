@@ -20,10 +20,10 @@ Cualquier usuario de internet que necesite saber el clima actual de su ciudad al
 - No utiliza geolocalización automática del navegador.
 
 ## 5. Criterios de aceptación
-- [ ] CA1: Dado que busco una ciudad válida, cuando presiono buscar, entonces se muestra la temperatura, estado del cielo, viento, humedad y sensación térmica.
-- [ ] CA2: Dado que la búsqueda está en curso, cuando espero la respuesta de la API, entonces se muestra un indicador de "Cargando...".
-- [ ] CA3: Dado que busco una ciudad inexistente, cuando el servidor responde con error, entonces se muestra "Ciudad no encontrada, verifica el nombre".
-- [ ] CA4: Dado que hay un fallo de red o conexión con la API, cuando intento buscar, entonces se muestra "Error de conexión con el servicio de clima".
+- [x] CA1: Dado que busco una ciudad válida, cuando presiono buscar, entonces se muestra la temperatura, estado del cielo, viento, humedad y sensación térmica.
+- [x] CA2: Dado que la búsqueda está en curso, cuando espero la respuesta de la API, entonces se muestra un indicador de "Cargando...".
+- [x] CA3: Dado que busco una ciudad inexistente, cuando el servidor responde con error, entonces se muestra "Ciudad no encontrada, verifica el nombre".
+- [x] CA4: Dado que hay un fallo de red o conexión con la API, cuando intento buscar, entonces se muestra "Error de conexión con el servicio de clima".
 
 ## 6. Stack
 - Front: HTML + CSS + JavaScript (Vanilla) + Open-Meteo API
