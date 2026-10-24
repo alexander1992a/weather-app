@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta el Clima</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Ingresá una ciudad (ej: Buenos Aires)...">
+            <button id="search-btn">Buscar</button>
+        </div>
+
+        <div id="loading" class="hidden">Cargando...</div>
+        <div id="error-msg" class="hidden error"></div>
+
+        <div id="weather-result" class="hidden">
+            <h2 id="city-name"></h2>
+            <p class="temp">Temperatura: <span id="temp-value"></span>°C</p>
+            <p>Estado del cielo: <span id="condition-value"></span></p>
+            <p>Sensación térmica: <span id="apparent-temp-value"></span>°C</p>
+            <p>Humedad: <span id="humidity-value"></span>%</p>
+            <p>Viento: <span id="wind-value"></span> km/h</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
